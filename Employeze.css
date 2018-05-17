@@ -6,16 +6,17 @@ html {
 
 body {
   font-family: 'Montserrat', sans-serif;
-}
+ 
+  }
 
 hr {
-  max-width: 65px;
+  max-width: 100px;
   border-width: 3px;
-  border-color: rgb(201, 237, 246); 
+  border-color: rgb(255, 169, 0); 
 }
 
 .faded {
-  color: rgba(255, 255, 255, 0.8); 
+  color: rgba(255, 169, 0,); 
 }
 
 header.startup {
@@ -31,13 +32,20 @@ header.startup hr {
 }
 
 header.startup h1 {
+  font-size: 3rem;  
+
+}
+
+header.startup h3 {
   font-size: 2rem; 
+
+
 }
 
 .btn {
-  font-weight: 700;
+  font-weight: 800;
   text-transform: uppercase;
-  border-radius: 300px;
+  border-radius: 500px;
   font-family: 'Montserrat', sans-serif;
 }
 
@@ -46,13 +54,14 @@ header.startup h1 {
 }
 
 .btn-primary {
-  background-color: rgb(201, 237, 246);
-  border-color: rgb(201, 237, 246); }
+  background-color: rgb(255, 169, 0);
+  border-color: white;
+  border-width: 2px; }
 
 .btn-primary:hover {
-  background-color: rgb(201, 237, 246);
-  border-color: rgb(201, 237, 246);
-  border-width: 5px;
-  cursor: pointer;
+  background-color: rgb(255, 169, 0);
+  border-color: white;
+  border-width: 4px;
+  cursor: auto;
 }
   
